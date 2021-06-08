@@ -1,0 +1,52 @@
+curl -X POST -H "Content-Type: application/json" -d @- http://model.18.136.133.61.nip.io/ba33c536-bc92-46d1-840b-25b512d038df/model/score << EOF
+{
+  "fields": [
+    "add_these_pw_job_title_9089",
+    "agent_city",
+    "agent_firm_name",
+    "application_type",
+    "class_of_admission",
+    "country_of_citizenship",
+    "employer_city",
+    "employer_decl_info_title",
+    "employer_name",
+    "employer_num_employees",
+    "foreign_worker_info_req_experience",
+    "foreign_worker_yr_rel_edu_completed",
+    "fw_info_birth_country",
+    "ji_fw_live_on_premises",
+    "ji_live_in_dom_svc_contract",
+    "job_info_alt_occ_num_months",
+    "naics_2007_us_code",
+    "pw_amount_9089",
+    "pw_unit_of_pay_9089",
+    "ri_1st_ad_newspaper_name",
+    "wage_offer_from_9089"
+  ],
+  "rows": [
+    [
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text",
+      "0",
+      "text",
+      "0",
+      "text",
+      "text",
+      "text",
+      "0",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text"
+    ]
+  ]
+}
+EOF

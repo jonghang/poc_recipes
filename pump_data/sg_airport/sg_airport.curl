@@ -1,0 +1,36 @@
+curl -X POST -H "Content-Type: application/json" -d @- http://model.18.136.133.61.nip.io/aa8ece59-9afa-46a1-8079-9169513cb6f2/model/score << EOF
+{
+  "fields": [
+    "DATE",
+    "COUNTRY_ORIGIN",
+    "FUT_BRENT_CRUDE",
+    "FUT_CRUDE_OIL",
+    "GOLD",
+    "FUT_COFFEE",
+    "FUT_WHEAT",
+    "FUT_NAT_GAS",
+    "PLATINUM",
+    "GASOLINE",
+    "FUT_US_TREAS_BOND",
+    "FUT_CORN",
+    "FUT_OAT"
+  ],
+  "rows": [
+    [
+      "text",
+      "text",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ]
+}
+EOF
